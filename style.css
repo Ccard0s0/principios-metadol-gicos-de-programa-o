@@ -1,0 +1,40 @@
+.title-1 {
+    color: #ffffff;
+  }
+  body
+   {
+    background-color: #3b6bb3;
+   }
+   
+  .title-2 {
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .text-1 {
+    color: #1e3a8a;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+  }
+  
+  img {
+    width: 400px;
+  }
+  
+  header {
+    background-color: rgb(46, 48, 141);
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 15px;
+  }
+  
+  .img-1 {
+    margin-left: 20%;
+  }
+  
+  a {
+    color: #000000
+  }
+  
+  
