@@ -1,26 +1,219 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <title>Pricípios Metodológicos de Programação</title>
 </head>
 
 <body>
+
+
     <header>
-        <h1 class="title-1">
-            <center>Príncipios Metadológicos de Programação<span style='font-size:px;'>&#128187;</span></center>
-        </h1>
+        <h1>Princípios Metodológicos de Programação&#128187;</span></h1>
     </header>
     <center>
-    <h2 class="title-1">Do que se trata este assunto?</h2>
-    <h4 class="text-1">Príncipios Metadológicos de Programação são diretrizes que nos ajudam a escrever um código de forma organizada e eficiente. Alguns exemplos são: dividir e consquistar, reutilização de código, entre outras.
-        Estes princípios ajudam-nos a criar programas mais legíveis, fáceis de manter e com menos erros.</center>
-    </h4>
-    
-    
+        <h2>O que são os princípios metadológicos de programação?</h2>
+    </center>
+    <center>Princípios metadológicos de programação são diretrizes que nos ajudam a escrever um código de forma
+        organizada e eficiente.</center>
+
+
+    <h3 class="text-1">Os princípios metodológicos de programação são fundamentais para o desenvolvimento de software de
+        qualidade.
+        Eles incluem:</h3>
+
+
+    <ul>
+        <li class="li-1">Clareza e Simplicidade</li>
+        <li class="li-1">Modularidade</li>
+        <li class="li-1">Reusabilidade</li>
+        <li class="li-1">Manutenibilidade</li>
+        <li class="li-1">Testabilidade</li>
+        <li class="li-1">Documentação</li>
+    </ul>
+
+
+    <h4 class="text-2">Cada um desses princípios desempenha um papel crucial na criação de programas eficientes e fáceis
+        de entender.</h4>
+    </p>
+    <h2 class="text-2">1. Clareza e Simplicidade:</h2>
+    <ul>
+
+        <li class="li-1">Comentários Significativos:Utilize comentários para explicar partes do código que podem não
+            ser imediatamente óbvias. No entanto, evite comentários desnecessários ou óbvios, pois podem poluir o
+            código.</li>
+
+
+        <li class="li-1">Nomes Descritivos: Escolha nomes de variáveis, funções e classes que descrevam claramente o
+            propósito e a funcionalidade. Nomes bem escolhidos podem servir como documentação em si mesmos.</li>
+
+    </ul>
+    <h2 class="text-2">2. Decomposição:</h2>
+    <ul>
+
+        <li class="li-1">Divisão em Funções/Procedimentos: Divida o código em funções ou procedimentos que realizem
+            tarefas específicas. Cada função deve ter uma responsabilidade única.</li>
+
+
+
+        <li class="li-1">Hierarquia de Abstração: Ao dividir um problema em partes menores, crie uma hierarquia de
+            abstração. As funções de nível superior devem chamar funções de nível inferior, criando um fluxo lógico
+            e compreensível.</li>
+    </ul>
+    <h2 class="text-2">3. Abstração:</h2>
+    <ul>
+        <li class="li-1">Uso de Classes e Objetos: Em linguagens orientadas a objetos, use classes para encapsular dados
+            e comportamentos relacionados. Isso ajuda a modelar o mundo real de forma mais eficaz.</li>
+        <li class="li-1">Interfaces e Contratos: Defina interfaces claras para as funções e métodos. Um contrato bem
+            definido entre diferentes partes do código ajuda na comunicação e na integração.</li>
+    </ul>
+    <h2 class="text-2">4. Modularidade:</h2>
+    <ul>
+        <li class="li-1">Acoplamento Fraco, Coesão Forte: Módulos devem depender o mínimo possível uns dos outros
+            (acoplamento fraco) e ter funcionalidades internas relacionadas (coesão forte).</li>
+        <li class="li-1">Encapsulamento: Proteja o estado interno de um módulo e forneça uma interface bem definida para
+            interações externas. Isso reduz o risco de efeitos colaterais indesejados.</li>
+    </ul>
+    <h2 class="li-1">5. Reusabilidade</h2>
+    <ul>
+        <li class="li-1">Acoplamento Fraco, Coesão Forte: Módulos devem depender o mínimo possível uns dos outros
+            (acoplamento fraco) e ter funcionalidades internas relacionadas (coesão forte).</li>
+        <li class="li-1">Encapsulamento: Proteja o estado interno de um módulo e forneça uma interface bem definida para
+            interações externas. Isso reduz o risco de efeitos colaterais indesejados.</li>
+    </ul>
+    <h2 class="text-2">6. Eficiência e otimização:</h2>
+    <ul>
+        <li class="li-1">Perfil de Desempenho: Antes de otimizar, identifique as partes do código que realmente precisam
+            de otimização. Use ferramentas de perfil para entender onde o tempo está sendo gasto.</li>
+        <li class="li-1">Equilíbrio entre Tempo e Espaço: A otimização muitas vezes envolve um trade-off entre
+            eficiência de tempo e consumo de recursos. Encontrar um equilíbrio é essencial.</li>
+    </ul>
+    <h2 class="text-2">7. Testabilidade:</h2>
+    <ul>
+        <li class="li-1">Testes Unitários: Escreva testes unitários para cada componente do software. Isso ajuda a
+            garantir que pequenas partes do código funcionem conforme o esperado.</li>
+        <li class="li-1">Testes Automatizados: Automatize testes sempre que possível. Isso facilita a execução de testes
+            frequentemente, especialmente durante o desenvolvimento contínuo.</li>
+    </ul>
+    <h2 class="text-2">8. Documentação:</h2>
+    <ul>
+        <li class="li-1">Comentários de Código: Além de comentários claros, forneça uma documentação mais extensa, se
+            necessário, explicando o propósito, uso e comportamento de classes, funções e métodos.</li>
+        <li class="li-1">Readme e Documentação Externa: Forneça documentação externa, como um arquivo README ou
+            documentação online, para orientar os usuários do seu código sobre como usá-lo.</li>
+    </ul>
+    <h2 class="text-2">9. Controle de versão.</h2>
+    <ul>
+        <li class="li-1">Branching e Merging: Entenda e utilize efetivamente recursos de controle de versão, como
+            branches,
+            para trabalhar em novas funcionalidades ou correções sem interferir no código principal.</li>
+        <li class="li-1">Mensagens de Commit Descritivas: Escreva mensagens de commit claras e concisas para que
+            qualquer
+            pessoa possa entender as mudanças feitas em um determinado momento.</li>
+    </ul>
+    <h2 class="text-2">10. Design Patterns:</h2>
+    <ul>
+        <li class="li-1">Padrões Estruturais, Comportamentais e de Criação: Familiarize-se com diferentes categorias de
+            design patterns e saiba quando aplicar cada tipo. Padrões como Singleton, Observer e Factory são exemplos
+            comuns.</li>
+        <li class="li-1">Adaptação ao Contexto: Não force a aplicação de um design pattern se ele não se encaixar
+            organicamente no seu código. Os padrões devem ser ferramentas, não regras rígidas.</li>
+    </ul>
+    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/22nd99SLgNA?si=Dr-m2OjdONavHArA"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe></center>
+    <center>
+        <h1>Metedologia em Programação e a sua evolução</h1>
+        <h4 class="text-1">A evolução das metodologias em programação é uma jornada fascinante que abrange várias
+            décadas. Desde as abordagens sequenciais e lineares até as práticas ágeis, DevOps e além, a história das
+            metodologias de desenvolvimento de software é marcada por uma busca constante por eficiência, colaboração e
+            entrega de valor. Vamos explorar essa evolução em diferentes fases:</h4>
+
+    </center>
+    <center>
+        <h1>1. Fase Inicial: Modelos Tradicionais</h1>
+    </center>
+    <ul>
+        <h2 class="text-2">1.1 Modelo Cascata (décadas de 1950 e 1960)</h2>
+        <h3 class="text-1">caracteristicas</h3>
+        <li class="li-1">Abordagem sequencial.</li>
+        <li class="li-1">Cada fase depende da conclusão da fase anterior.</li>
+        <li class="li-1">Rígido e inflexível para mudanças.</li>
+    </ul>
+    <ul>
+        <h2 class="text-2">1.2 Modelo em Espiral (décadas de 1980 e 1990)</h2>
+        <h3 class="text-1">caracteristicas</h3>
+        <li class="li-1">Introdução de ciclos iterativos.
+        </li>
+        <li class="li-1">Avaliação contínua de riscos.</li>
+        <li class="li-1">Maior adaptabilidade.</li>
+    </ul>
+    <center>
+        <h1>2. Revolução Ágil (início dos anos 2000)</h1>
+    </center>
+    <ul>
+        <h2 class="text-2">2.1 Manifesto Ágil (2001)</h2>
+        <h3 class="text-1">caracteristicas</h3>
+        <li class="li-1">Ênfase em indivíduos e interações.</li>
+        <li class="li-1">Entrega contínua de software funcional.</li>
+        <li class="li-1">Colaboração com o cliente e adaptação a mudanças.</li>
+        <h2 class="text-2">2.2 Metodologias Ágeis (Scrum, XP, Kanban)</h2>
+        <h3 class="text-1">caracteristicas</h3>
+        <li class="li-1">Ciclos de desenvolvimento curtos (sprints).</li>
+        <li class="li-1">Colaboração próxima entre equipes e clientes.</li>
+        <li class="li-1">Ênfase em adaptabilidade e flexibilidade.</li>
+    </ul>
+    <center>
+        <h1>3. Era Contemporânea: Práticas e Metodologias Modernas</h1>
+    </center>
+    <ul>
+        <h2 class="text-2">3.1 DevOps (década de 2010) </h2>
+        <h3 class="text-1">caracteristicas</h3>
+        <li class="li-1">Integração estreita entre desenvolvimento e operações.</li>
+        <li class="li-1">Automação de processos.</li>
+        <li class="li-1">Entrega contínua e implantação contínua (CI/CD).</li>
+        <h2 class="text-2">3.2 Desenvolvimento Orientado a Testes (TDD) e Programação em Pares</h2>
+        <h3 class="text-1">caracteristicas</h3>
+        <li class="li-1">Testes automatizados integrados ao ciclo de desenvolvimento.</li>
+        <li class="li-1">Colaboração direta entre desenvolvedores.</li>
+        <li class="li-1">Ênfase na qualidade do código.</li>
+    </ul>
+    <center>
+        <h1>4. Tendências Emergentes (últimos anos)</h1>
+    </center>
+    <ul>
+        <h2 class="text-2">4.1 Inteligência Artificial e Machine Learning</h2>
+        <h3 class="text-1">caracteristicas</h3>
+        <li class="li-1">Automação de tarefas repetitivas.</li>
+        <li class="li-1">Melhorias na detecção de bugs.</li>
+        <li class="li-1">Otimização de processos de desenvolvimento.</li>
+        <h2 class="text-2">4.2 Metodologias Adaptativas (Kanban, Feature-Driven Development)</h2>
+        <h3 class="text-1">caracteristicas</h3>
+        <li class="li-1">Adaptação a contextos específicos.</li>
+        <li class="li-1">Abordagem flexível para lidar com complexidade variável.</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </ul>
+
+
+
 </body>
 
 </html>
